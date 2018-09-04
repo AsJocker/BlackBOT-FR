@@ -5,7 +5,7 @@ const prefix = ("!");
 const token = process.env.token;
 bot.on('ready', function () {
     console.log("Je suis prêt à être utilisé.")
-    bot.user.setActivity('www.BlackGen.pw').catch(console.error)
+    bot.user.setActivity('lol').catch(console.error)
 });
 
 
